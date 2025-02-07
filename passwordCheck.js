@@ -13,9 +13,9 @@ function checkPasswordStrength(password) {
 
     return "Strong";
 }
-console.log(checkPasswordStrength("password"));  // Очікуємо: Weak
-console.log(checkPasswordStrength("Password123")); // Очікуємо: Strong
-console.log(checkPasswordStrength("12345678")); // Очікуємо: Weak
-console.log(checkPasswordStrength("WeakPass1")); // Очікуємо: Strong
-console.log(checkPasswordStrength("STRONG123")); // Очікуємо: Weak (немає маленьких літер)
+console.log(checkPasswordStrength("password"));  
+console.log(checkPasswordStrength("Password123")); 
+console.log(checkPasswordStrength("12345678")); 
+console.log(checkPasswordStrength("WeakPass1")); 
+console.log(checkPasswordStrength("STRONG123")); 
 
